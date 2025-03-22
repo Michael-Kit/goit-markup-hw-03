@@ -138,12 +138,9 @@ a {
 }
 
 .main-titel-text-container{
-    box-sizing: border-box;
+     box-sizing: border-box;
     padding-top: 188px;
-    padding-left: 472px;
-    padding-right: 472px;
     padding-bottom: 292px;
-   
     
 }
 .main-title {
@@ -153,21 +150,13 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
    
 }
- .button{
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 48px;
-    border: none;
- }
-
  
 .button-order {
+    display: block;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -175,6 +164,17 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    border-radius: 4px;
+        height: 56px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 48px;
+        border: none;
+        padding: 16px 32px;
+        align-items: center;
+        min-width: 169px;
+        border: none;
+    
         
 }
 
@@ -264,6 +264,7 @@ a {
 
 .team-card {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px
     
 }
 .team-member-name {
@@ -310,9 +311,9 @@ a {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 48px) / 3);
-    gap: 24px;
-      padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-bottom: 120px;
     
 }
 
