@@ -166,7 +166,7 @@ img {
 }
 
 /* section 2 */
-.fetureas-section{
+.features-section{
     padding: 120px 0 134px 0;
 }
 .visually-hidden {
@@ -185,17 +185,13 @@ img {
 .features-list{
     display: flex;
     gap: 24px;
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .feature-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-        flex-grow: 1;
-}
-.features-section-title {
-    font-size: 36px;
+    flex-basis: calc((100% - 72px) / 4);
     text-align: center;
-    margin-bottom: 20px;
-    color: #2e2f42;
 }
 
 .feature-item-title {
