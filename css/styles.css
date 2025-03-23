@@ -166,6 +166,9 @@ img {
 }
 
 /* section 2 */
+.fetureas-section{
+    padding: 120px 0 134px 0;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -181,7 +184,6 @@ img {
 
 .features-list{
     display: flex;
-    padding: 120px 0 120px;
     gap: 24px;
 }
 
