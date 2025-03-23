@@ -235,7 +235,7 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -250,6 +250,11 @@ img {
     flex-basis: calc((100% - 72px) / 4);
     
 }
+
+.team-card div {
+    padding: 32px 0 32px;
+}
+
 .team-member-name {
     font-weight: 500;
     font-size: 20px;
