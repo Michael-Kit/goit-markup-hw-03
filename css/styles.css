@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 /* common */
 
 .container{
@@ -120,22 +124,20 @@ a {
     margin: 0;
 }
 
-.main-titel-text-container{
-     box-sizing: border-box;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    
-}
 .main-title {
+    box-sizing: border box;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    padding-top: 188px;
+    padding-bottom: 188px;
     text-align: center;
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
     padding-bottom: 48px;
+
    
 }
  
