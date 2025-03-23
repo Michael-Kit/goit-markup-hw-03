@@ -183,10 +183,13 @@ img {
     display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
-    flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
 }
 
+.feature-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+        flex-grow: 1;
+}
 .features-section-title {
     font-size: 36px;
     text-align: center;
