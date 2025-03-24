@@ -339,17 +339,20 @@ img {
     padding-bottom: 32px;
 }
 
-.footer-logo .logo-part {
-    color: #f4f4fd;
-    line-height: 1.17;
+.footer-logo {
     display: inline-block;
+    /* Забезпечення блочності посилання */
     margin-bottom: 16px;
+    /* Відступ між логотипом і текстом */
+}
+.footer-logo .logo-part {
+   line-height: 1.17;
+     color: #f4f4fd;
 }
 
 .page-footer {
     background-color: #2e2f42;
     width: 100%;
-    height: auto;
     padding: 100px 0;
 }
 
